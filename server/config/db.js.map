@@ -1,0 +1,1 @@
+{"version":3,"sources":["config/db.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,GAAG;IACb,KAAK,EAAC,oEAAoE;CAC7E,CAAC","file":"config/db.js","sourcesContent":["module.exports = {\n    'url':'mongodb://thomas:12345@ds061345.mongolab.com:61345/heroku_qnl2tjrh'\n};"],"sourceRoot":"/source/"}
