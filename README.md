@@ -1,3 +1,5 @@
-# COMP2068-MongoDemo
+# Tournament Bracket
 
-A MongoDB Demo Project for COMP2068 @ Georgian College
+A Tournament Bracket Made By:
+   Jesse Baril, Chad Ostler, D'Arcey Taylor, Ryan Jameson, Patrick Ross.
+    
