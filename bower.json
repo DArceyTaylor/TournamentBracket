@@ -1,9 +1,9 @@
 {
-  "name": "comp2068-mongodemo",
-  "description": "A MongoDB Demo Project for COMP2068 @ Georgian College",
+  "name": "Tournament Bracket",
+  "description": "A Tournament Bracket made by The New Order",
   "main": "",
   "authors": [
-    "Tom Tsiliopoulos"
+    "Jesse Baril, Chad Ostler, D'Arcey Taylor, Ryan Jameson, Patrick Ross."
   ],
   "license": "MIT",
   "moduleType": [],
