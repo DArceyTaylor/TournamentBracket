@@ -20,20 +20,10 @@ var userSchema = new mongoose.Schema({
         trim: true,
         required: 'email is required'
     },
-    displayName: {
-        type: String,
-        default: '',
-        trim: true,
-        required: 'Display Name is required'
-    },
     created: {
         type: Date,
         default: Date.now
     },
-    updated: {
-        type: Date,
-        default: Date.now
-    }
 }, { collection: 'userInfo' });
 // MAKE THIS PUBLIC SO THE CONTROLLER CAN SEE IT
 exports.User = mongoose.model('User', userSchema);

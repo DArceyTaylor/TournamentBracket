@@ -17,7 +17,6 @@ var CustomError = objects.CustomError;
 var myerror = new CustomError();
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var articles = require('./routes/articles');
 var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -40,7 +39,6 @@ app.use(express.static(path.join(__dirname, '../public')));
 // Route Definitions
 app.use('/', routes);
 app.use('/users', users);
-app.use('/articles', articles);
 // connect to mongodb with mongoose
 var DB = require('./config/db');
 mongoose.connect(DB.url);
